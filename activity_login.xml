@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/loginbackground">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="LOGIN"
+        android:textAlignment="center"
+        android:textColor="#0720AE"
+        android:textSize="48sp" />
+
+    <EditText
+        android:id="@+id/unameL"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@id/textView3"
+        android:layout_marginTop="55dp"
+        android:hint="USERNAME"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/passL"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_below="@id/unameL"
+        android:layout_marginTop="55dp"
+        android:hint="PASSWORD"
+        android:textColorHint="@color/black" />
+    <Button
+        android:id="@+id/loginL"
+        android:layout_width="232dp"
+        android:layout_height="64dp"
+        android:text="LOGIN"
+        android:layout_below="@id/passL"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="55dp"/>
+
+
+
+
+
+</RelativeLayout>

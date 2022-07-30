@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/loginbackground"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="REGISTER"
+        android:textAlignment="center"
+        android:textColor="#0F30E6"
+        android:textSize="48sp" />
+
+    <EditText
+        android:id="@+id/unameR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+
+        android:layout_marginTop="50dp"
+        android:hint="USERNAME"
+        android:minHeight="48dp"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/passR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/unameR"
+        android:layout_marginTop="50dp"
+        android:hint="PASSWORD"
+        android:minHeight="48dp"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/rpassR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passR"
+        android:layout_marginTop="50dp"
+        android:hint="RE ENTER PASSWORD"
+        android:minHeight="48dp"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/registerB"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rpassR"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="90dp"
+        android:text="REGISTER" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerB"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="25dp"
+        android:text="Already have an account?"
+        android:textAlignment="center"
+        android:textColor="#FF5722"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/loginRB"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="24dp"
+        android:minHeight="48dp"
+        android:text="LOGIN" />
+
+
+</RelativeLayout>
